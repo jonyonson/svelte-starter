@@ -1,0 +1,12 @@
+{
+  "name": "svelte-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jonathan Taylor <jonathan.taylor.dev@gmail.com> (https://jonathantaylor.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6"
+  }
+}
