@@ -4,9 +4,19 @@
   "main": "index.js",
   "author": "Jonathan Taylor <jonathan.taylor.dev@gmail.com> (https://jonathantaylor.io)",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "browserslist": [
+    "last 2 chrome versions"
+  ],
   "devDependencies": {
     "@babel/polyfill": "^7.8.7",
     "parcel-bundler": "^1.12.4",
-    "parcel-plugin-svelte": "^4.0.6"
-  }
+    "parcel-plugin-svelte": "^4.0.6",
+    "sass": "^1.26.3",
+    "svelte": "^3.19.2"
+  },
+  "dependencies": {}
 }
