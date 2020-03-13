@@ -5,11 +5,12 @@
   "author": "Jonathan Taylor <jonathan.taylor.dev@gmail.com> (https://jonathantaylor.io)",
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf .cache/ dist/",
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html"
   },
   "browserslist": [
-    "last 2 chrome versions"
+    "last 1 chrome versions"
   ],
   "devDependencies": {
     "@babel/polyfill": "^7.8.7",
